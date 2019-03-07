@@ -1,0 +1,7 @@
+Pedro|groceries|apple|1.42
+Nitin|tobacco|cigaretters|15.00
+Susie|groceries|cereal|5.50
+Susie|groceries|milk|4.75
+Susie|tobacco|cigaretters|15.00
+Susie|fuel|gasoline|44.90
+Pedro|fuel|propane|9.60
