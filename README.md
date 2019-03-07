@@ -4,8 +4,8 @@ Coding Practice for Interviews
 
 ### [LeetCode](./LeetCode)
 
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
+| # | Title | Difficulty |
+|---| ----- | ---------- |
 |1|[Two Sum](./LeetCode/Two%20Sum/README.md) |Easy|
 |2|[Add Two Numbers](./LeetCode/Add%20Two%20Numbers/README.md) |Medium|
 |3|[Longest Substring without Repeating Characters](./LeetCode/Longest%20Substring%20without%20Repeating%20Characters/README.md) %20Characters/LongestSubstringwithoutRepeatingCharacters.cpp)|Medium|
