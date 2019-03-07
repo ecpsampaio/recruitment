@@ -8,7 +8,7 @@ Coding Practice for Interviews
 |---| ----- | ---------- |
 |1|[Two Sum](./LeetCode/Two%20Sum/README.md) |Easy|
 |2|[Add Two Numbers](./LeetCode/Add%20Two%20Numbers/README.md) |Medium|
-|3|[Longest Substring without Repeating Characters](./LeetCode/Longest%20Substring%20without%20Repeating%20Characters/README.md) %20Characters/LongestSubstringwithoutRepeatingCharacters.cpp)|Medium|
+|3|[Longest Substring without Repeating Characters](./LeetCode/Longest%20Substring%20without%20Repeating%20Characters/README.md) |Medium|
 |5|[Longest Palindromic Substring](./LeetCode/Longest%20Palindromic%20Substring/README.md) |Medium|
 |8|[String to Integer (atoi)](./LeetCode/String%20to%20Integer/README.md) |Medium|
 |9|[Palindrome Number](./LeetCode/Palindrome%20Number/README.md) |Easy|
@@ -34,15 +34,15 @@ Coding Practice for Interviews
 |110|[Balanced Binary Tree](./LeetCode/Balanced%20Binary%20Tree/README.md) |Easy|
 |112|[Path Sum](./LeetCode/Path%20Sum/README.md) |Easy|
 |113|[Path Sum II](./LeetCode/Path%20Sum%20II/README.md) |Medium|
-|116|[Populating Next Right Pointers in Each Node](./LeetCode/Populating%20Next%20Right%20Pointers%20in%20Each%20Node/README.md) %20Node/PopulatingNextRightPointersinEachNode.cpp)|Medium|
+|116|[Populating Next Right Pointers in Each Node](./LeetCode/Populating%20Next%20Right%20Pointers%20in%20Each%20Node/README.md) |Medium|
 |136|[Single Number](./LeetCode/Single%Number/README.md) |Easy|
 |139|[Word Break](./LeetCode/Word%20Break/README.md) |Medium|
 |144|[Binary Tree Preorder Traversal](./LeetCode/Binary%20Tree%20Preorder%20Traversal/README.md) |Medium|
 |145|[Binary Tree Postorder Traversal](./LeetCode/Binary%20Tree%20Postorder%20Traversal/README.md) |Medium|
 |151|[Reverse Words in a String](./LeetCode/Reverse%20Words%20in%20a%20String/README.md) |Medium|
 |152|[Maximum Product Subarray](./LeetCode/Maximum%20Product%20Subarray/README.md) |Medium|
-|153|[Find Minimum in Rotated Sorted Array](./LeetCode/Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md) %20Array/FindMinimuminRotatedSortedArray.cpp)|Medium|
-|154|[Find Minimum in Rotated Sorted Array II](./LeetCode/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/README.md) %20II/FindMinimuminRotatedSortedArrayII.cpp)|Hard|
+|153|[Find Minimum in Rotated Sorted Array](./LeetCode/Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md) |Medium|
+|154|[Find Minimum in Rotated Sorted Array II](./LeetCode/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/README.md) |Hard|
 |155|[Min Stack](./LeetCode/Min%20Stack/README.md) |Easy|
 |160|[Intersection of Two Linked Lists](./LeetCode/Intersection%20of%20Two%20Linked%20Lists/README.md) |Easy|
 |162|[Find Peak Element](./LeetCode/Find%20Peak%20Element/README.md) |Medium|
@@ -80,7 +80,7 @@ Coding Practice for Interviews
 |500|[Keyboard Row](./LeetCode/Keyboard%20Row/README.md) |Easy|
 |501|[Find Mode in Binary Search Tree](./LeetCode/Find%20Mode%20in%20Binary%20Search%20Tree/README.md) |Easy|
 |513|[Find Bottom Left Tree Value](./LeetCode/Find%20Bottom%20Left%20Tree%20Value/README.md) |Medium|
-|515|[Find Largest Value in Each Tree Row](./LeetCode/Find%20Largest%20Value%20in%20Each%20Tree%20Row/README.md) %20Row/FindLargestValueinEachTreeRow.cpp)|Medium|
+|515|[Find Largest Value in Each Tree Row](./LeetCode/Find%20Largest%20Value%20in%20Each%20Tree%20Row/README.md) |Medium|
 |520|[Detect Capital](./LeetCode/Detect%20Capital/README.md) |Easy|
 |521|[Longest Uncommon Subsequence I](./LeetCode/Longest%20Uncommon%20Subsequence%20I/README.md) |Easy|
 |535|[Encode and Decode TinyURL](./LeetCode/Encode%20and%20Decode%20TinyURL/README.md) |Medium|
