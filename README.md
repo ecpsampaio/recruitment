@@ -2,7 +2,7 @@ Selecionamos alguns testes técnicos, pra começar o processo, basta fazer um fo
 
 Caso você mostre um resultado legal, vamos te chamar pra uma entrevista.
 
-Entra aqui na wiki deste projeto pra você conhecer melhor nosso processo seletivo.
+[Entra aqui na wiki](https://github.com/ecpsampaio/recruitment/wiki) deste projeto pra você conhecer melhor nosso processo seletivo.
 
 Jogue duro!
 
