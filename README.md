@@ -1,3 +1,11 @@
+Selecionamos alguns testes técnicos, pra começar o processo, basta fazer um fork deste repositório, resolver dois ou mais exercícios em qualquer linguagem, preferencialmente PHP, Java, Javascript, Python ou C(++), depois faz um pull request pra gente avaliar tua solução.
+
+Caso você mostre um resultado legal, vamos te chamar pra uma entrevista.
+
+Entra aqui na wiki deste projeto pra você conhecer melhor nosso processo seletivo.
+
+Jogue duro!
+
 # Coding Practice
 
 Coding Practice for Interviews
