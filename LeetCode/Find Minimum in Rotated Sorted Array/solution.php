@@ -3,10 +3,11 @@
   for($i=0; $i<21; $i++){ //Povoação do array com 20 posições
     $array[] = $i;
   }
-  $indices = count($array) - 1; //Conta quantos índices o array possui
-  $indiceSorteado = rand(0,$indices); //Sorteia um índice aleatório a partir da quantidade de índices daquele array
+  $indices = count($array); //Conta quantos índices o array possui
+  $indiceSorteado = rand(0, $indices - 1); //Sorteia um índice aleatório a partir da quantidade de índices daquele array
   $PosRestantes = $indices-$indiceSorteado; //Aponta as posições que restam para o fim do array
-  echo "<h1>Array gerado em ordem crescente de 0 a $indices</h1>";
+  $indiceExibicao = $indices-1;
+  echo "<h1>Array gerado em ordem crescente de 0 a $indiceExibicao</h1>";
   foreach ($array as  $value){
     echo "$value, ";
   }
@@ -28,11 +29,11 @@
     echo "$value, ";
   }
 
-  $menorValor = $indices;
+  $menorValor = $indiceExibicao;
 
   echo "<h1>Procurando o menor valor...</h1>";
   for($i = 0; $i < $indices; $i++){
-    $condition = $finish_array[$i] < $menorValor; 
+    $condition = $finish_array[$i] < $menorValor;
     $r = $condition? 'Sim':'Não';
     echo "<p>{$finish_array[$i]} é menor que o menor valor ({$menorValor}) encontrado? {$r}</p>";
     if($condition){
