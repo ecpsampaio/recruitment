@@ -8,7 +8,7 @@ return `"blue is sky the"`.
  
 Update (2015-02-12): 
 For C programmers: Try to solve it in-place in O(1) space.
- 
+  
   private static String reverse(String frase){
 		 String[] palavras = frase.split(" ");
 		 for(int i=palavras.length-1; i>=0; i--){
