@@ -6,7 +6,7 @@ For example,
 Given s = `"the sky is blue"`,
 return `"blue is sky the"`.
 
-Update (2015-02-12):
+Update (2015-02-12): 
 For C programmers: Try to solve it in-place in O(1) space.
  
   private static String reverse(String frase){
