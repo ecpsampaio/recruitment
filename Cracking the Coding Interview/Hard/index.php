@@ -24,7 +24,7 @@ require_once "./_class/_longestWorld.php";
 
     $array1 = array(2,1,4,5,7,4,9);
     $s_matrix = new randMatrix($array1,4);
-    print_r($s_matrix->getNewMatrix());
+    implode($s_matrix->getNewMatrix());
 
 //4 integer valyue numbers btween 0 or n
 
@@ -35,8 +35,9 @@ require_once "./_class/_longestWorld.php";
 // 5 Search string
 
     $stringfull = "Oi amigos tudo brm com vocês ?";
-    $stringin = "ammigos";
+    $stringin = "com";
     $search = new searchOcorrence($stringfull,$stringin);
+    echo $search->serachIn();
 
 // 6 one million and one billion
 

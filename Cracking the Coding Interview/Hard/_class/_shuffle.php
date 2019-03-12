@@ -7,7 +7,6 @@ class deckCard {
     
     function __construct()
     {
-        $this->setColor();
         $this->setType();
         $this->setNumber();
 
@@ -26,7 +25,7 @@ class deckCard {
                 } else if ($j == 1) {
                     $this->deck[$index] = "Ace of ".$this->type[$i];
                 } else {
-                    $this->deck[$index] = $this->numbers." of ".$this->type[$i];
+                    $this->deck[$index] = implode(" ",$this->numbers)." of ".$this->type[$i];
                 }    
                 $index++;
                 }
