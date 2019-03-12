@@ -48,3 +48,7 @@ require_once "./_class/_longestWorld.php";
     $strarr = array("test", "tester", "testertest", "testing", "testingtester");
     $strMost = new longestWord($strarr);
     $strMost->getMost();
+    
+// 8 search string t in string s
+
+    
