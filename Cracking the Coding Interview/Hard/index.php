@@ -5,6 +5,9 @@ require_once "./_class/_randonMatrix.php";
 require_once "./_class/_zeroToN.php";
 require_once "./_class/_serachOcorrence.php";
 require_once "./_class/_longestWorld.php";
+require_once "./_class/_searchString.php";
+require_once "./_class/_randonNumber.php";
+require_once "./_class/_square.php";
 
 //1 sum not operator arithimetic
     
@@ -51,4 +54,13 @@ require_once "./_class/_longestWorld.php";
     
 // 8 search string t in string s
 
+    $strarr1 = array("rato"," roeu a roupa", "do rei","de roma");
+    $strmega = "O rato roeu a roupa do rei de roma";
+    $strserach1 = new searchString($strarr1,$strmega);
+
+// 9 sum and media rand arrays:
+    $sumarr = new randonNunber(10);
+
+// 10 square matrix
+    new square(3,3);
     
