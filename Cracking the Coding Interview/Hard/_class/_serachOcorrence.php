@@ -8,12 +8,12 @@ class searchOcorrence
 
     function __construct($strFull,$strin) {
 
-        setStrFull($strFull);
-        setStrIn($strin);
+        $this->setFull($strFull);
+        $this->setStrIn($strin);
 
     }
 
-    public function setStrFull($str_arg)
+    public function setFull($str_arg)
     {
         $this->strfull = $str_arg;
     }
@@ -31,9 +31,9 @@ class searchOcorrence
         return $this->strin;
     }
 
-    public function serachIn($term,$string) {
+    public function serachIn() {
 
-        $pos = strpos( $string, $term );
+        $pos = strpos( $this->getStrFull(), $this->getStrIn() );
         if ($pos === false) {
             $pos = 0;        
         }
