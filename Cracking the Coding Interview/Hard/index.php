@@ -3,6 +3,8 @@ require_once "./_class/_sum_not_opr.php";
 require_once "./_class/_shuffle.php";
 require_once "./_class/_randonMatrix.php";
 require_once "./_class/_zeroToN.php";
+require_once "./_class/_serachOcorrence.php";
+require_once "./_class/_longestWorld.php";
 
 //1 sum not operator arithimetic
     
@@ -39,4 +41,9 @@ require_once "./_class/_zeroToN.php";
 // 6 one million and one billion
 
     require_once "./_class/onemillion.php";
-    
+
+// 7 longest world
+
+    $strarr = array("test", "tester", "testertest", "testing", "testingtester");
+    $strMost = new longestWord($strarr);
+    $strMost->getMost();
