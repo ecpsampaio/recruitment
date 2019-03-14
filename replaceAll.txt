@@ -1,0 +1,20 @@
+package logica;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite uma frase:");
+		String frase = sc.nextLine();
+		
+		String nfrase = frase.replaceAll (" ", "%20");
+		
+		System.out.println(nfrase);
+
+		sc.close();
+
+	}
+}
