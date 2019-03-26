@@ -1,10 +1,10 @@
 <?php
 $array = array(); //Criação de array
-$largura = 8;
+$largura = 8; //Determina a largura
 for($i = 0; $i < $largura; $i++){ //Povoação do array com 20 posições
   $array[] = $i;
 }
-$indices = count($array); //Conta quantos índices o array possui
+$indices = count($array); //Conta quantos índices o array possui a partir de 1
 $indiceExibicao = $indices-1;
 $indiceSorteado = rand(0,$indices - 1); //Sorteia um índice aleatório a partir da quantidade de índices daquele array
 $PosRestantes = $indices-$indiceSorteado; //Aponta as posições que restam para o fim do array

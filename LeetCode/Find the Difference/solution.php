@@ -24,8 +24,8 @@
   echo "<h1>Dados dois arrays de strings a saber</h1>  <p> Primeiro: '$a' <br><br> Segundo: '$b'</p>";
   if( count($vetA) > count($vetB) ){ //Seleciona o maior array e o percorre
     echo "O valor excedente entre os arrays é: ";
-    exibeArray(excedentesArray($vetA, $vetB));
-  }else {
+    exibeArray(excedentesArray($vetA, $vetB)); //Exibe Array chama Excedente array e passa o valor excedente
+  }else {  //Senão
     echo "O valor excedente entre os arrays é: ";
     exibeArray(excedentesArray($vetB, $vetA));
   }

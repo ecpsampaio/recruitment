@@ -1,7 +1,7 @@
 <?php
   include("../exibearray.php");
 
-  $word = "arara";
+  $word = "PalavraReversa";
 
   function reverseString($string){
     $stringDividida = str_split($string); //Divide a palavra inicial num array
