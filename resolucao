@@ -1,0 +1,46 @@
+//questoa: 1. Two Sum
+
+var target = 9
+var input = [2, 7, 11, 15];
+
+(function(){
+let result;
+for(var i = 0; i<input.length; i++){
+	for(var j = 0; j<input.length; j++){
+		if(input[i]+input[j]==target && i!=j){
+			result = [i, j]
+			console.log('break')
+			break
+		}
+	}
+	if(result!=undefined){
+		break
+	}
+}
+
+return result
+})()
+
+//questao: 3. Longest Substring without Repeating Characters
+
+var word = 'pwwkew';
+
+(function(){
+let result = ''
+let finalResult = ''
+for(var i = 0; i<word.length; i++){
+	result = word[i]
+	for(var j = i+1; j<word.length; j++){
+		if(result[result.length-1]!=word[j] && !result.includes(word[j])){
+			result+=word[j]
+		}else{
+			break
+		}
+	}
+	if(finalResult.length<result.length){
+		finalResult=result
+	}
+	
+}
+	return finalResult.length
+})()
