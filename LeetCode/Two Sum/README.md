@@ -1,3 +1,4 @@
+```
 // # 1. Two Sum
 
 // Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -16,6 +17,7 @@ const arraySum = (nums, target) => {
     }
     return res;
 };
+
 
 //  # 27. Remove Element
 
@@ -54,3 +56,4 @@ const findDupes = (nums) => {
      }
      return res;
  };
+```
