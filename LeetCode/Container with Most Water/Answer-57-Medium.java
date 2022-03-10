@@ -6,7 +6,7 @@ public class WaterInContainer {
 	int a2 = height.length-1;
 	
 	while (a1 < a2){
-		if (heught[a1] ,height[a2]) {}
+		if (height[a1] ,height[a2]) {
 			max = math.max(max, height[a1] * (a2 - a1));
 			a1 += 1;
 		} 
